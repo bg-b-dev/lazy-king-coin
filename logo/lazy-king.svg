@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sol" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9945FF"/>
+      <stop offset="1" stop-color="#14F195"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE066"/>
+      <stop offset="1" stop-color="#F5A524"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#140B26"/>
+  <circle cx="512" cy="540" r="440" fill="url(#sol)"/>
+
+  <g stroke="#111" stroke-width="22" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="512" cy="640" rx="310" ry="255" fill="#FFCF9E"/>
+
+    <path d="M286 420 L250 170 L382 300 L512 140 L642 300 L774 170 L738 420 Z" fill="url(#gold)"/>
+    <rect x="270" y="400" width="484" height="90" rx="26" fill="url(#gold)"/>
+    <circle cx="390" cy="445" r="24" fill="#9945FF"/>
+    <circle cx="512" cy="445" r="28" fill="#14F195"/>
+    <circle cx="634" cy="445" r="24" fill="#9945FF"/>
+    <circle cx="512" cy="152" r="22" fill="#14F195"/>
+
+    <path d="M332 606 A80 62 0 0 0 492 606 Z" fill="#fff"/>
+    <path d="M532 606 A80 62 0 0 0 692 606 Z" fill="#fff"/>
+    <path d="M300 606 H520" fill="none"/>
+    <path d="M512 606 H724" fill="none"/>
+    <path d="M340 552 Q412 528 480 560" fill="none" stroke-width="20"/>
+    <path d="M548 540 Q620 500 690 534" fill="none" stroke-width="20"/>
+
+    <path d="M420 772 Q540 832 640 748" fill="none" stroke-width="26"/>
+    <path d="M626 732 L656 762" fill="none" stroke-width="20"/>
+    <path d="M424 784 Q404 826 424 846 Q446 826 424 784 Z" fill="#7FE8FF" stroke-width="12"/>
+  </g>
+
+  <circle cx="436" cy="628" r="22" fill="#111"/>
+  <circle cx="636" cy="628" r="22" fill="#111"/>
+  <ellipse cx="320" cy="700" rx="44" ry="26" fill="#FF8FA3" opacity="0.8"/>
+  <ellipse cx="716" cy="690" rx="44" ry="26" fill="#FF8FA3" opacity="0.8"/>
+
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M790 250 H880 L790 340 H880" stroke="#111" stroke-width="44"/>
+    <path d="M790 250 H880 L790 340 H880" stroke="#14F195" stroke-width="22"/>
+    <path d="M880 120 H940 L880 180 H940" stroke="#111" stroke-width="36"/>
+    <path d="M880 120 H940 L880 180 H940" stroke="#14F195" stroke-width="16"/>
+  </g>
+</svg>
